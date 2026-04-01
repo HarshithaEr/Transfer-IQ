@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import joblib
-from tensorflow.keras.models import load_model
 
 ##################################
 # PAGE CONFIG
@@ -29,17 +27,6 @@ def load_data():
     return pd.read_csv("final_ensemble_dataset.csv")
 
 df = load_data()
-
-##################################
-# LOAD MODELS (optional if available)
-##################################
-
-# Uncomment if deploying real models
-
-# uni_model = load_model("models/uni_lstm.h5")
-# multi_model = load_model("models/multi_lstm.h5")
-# encoder_model = load_model("models/encoder.h5")
-# xgb_model = joblib.load("models/xgb.pkl")
 
 ##################################
 # SIDEBAR
