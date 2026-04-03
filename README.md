@@ -1,5 +1,6 @@
 # Transfer-IQ
-Dynamic Player Transfer Value Prediction using AI and Multi-source Data
+Performance Analysis of Transfer Value Prediction Models
+
 Live Project:
 https://transfer-iq-2tummjybe7u7tzkl3wxyzz.streamlit.app/
 
